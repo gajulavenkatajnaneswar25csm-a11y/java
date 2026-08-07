@@ -42,5 +42,4 @@ public class Abstractclass extends Mad {
         ad.method4();
         System.out.println("result : " + add(ad.a, ad.b));
     }
-
 }
