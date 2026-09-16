@@ -8,9 +8,9 @@ class Student {
         int n = sc.nextInt();
 
         if (n % 2 == 0) {
-            System.out.println("n is even");
+            System.out.println(n + " is even");
         } else {
-            System.out.println("n is odd number");
+            System.out.println(n + " is odd number");
         }
     }
 
@@ -21,11 +21,11 @@ class Student {
         int c = sc.nextInt();
 
         if (a >= b && a >= c) {
-            System.out.println("a is max: " + a);
+            System.out.println(a + " is max ");
         } else if (b >= a && b >= c) {
-            System.out.println("b is max: " + b);
+            System.out.println(b + " is max ");
         } else {
-            System.out.println("c is max: " + c);
+            System.out.println(c + " is max ");
         }
     }
 
@@ -111,11 +111,11 @@ public class Conditionalstatement {
                 break;
 
             case 3:
-                obj.grade();
+                obj.grades();
                 break;
 
             case 4:
-                obj.day();
+                obj.days();
                 break;
 
             default:
